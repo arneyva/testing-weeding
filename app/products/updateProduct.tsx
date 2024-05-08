@@ -7,7 +7,7 @@ import axios from "axios";
 type Product = {
   id: number;
   title: string;
-  price: number;
+  price: string;
   brandId: number;
 };
 
