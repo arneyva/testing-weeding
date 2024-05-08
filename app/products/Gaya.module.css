@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Paprika&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Paprika&family=Parisienne&display=swap');
+
+
+
+.container {
+    margin: 0 auto;
+    max-width: 630px;
+    min-height: 100vh;
+    /* Menambahkan min-height: 100vh; */
+}
+
+.card {
+    background-color: #F9F7F2;
+    background-clip: border-box;
+    border-radius: 0.25rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    overflow: hidden;
+    height: 100%;
+    /* Menambahkan height: 100%; */
+}
+
+.card-lokasi {
+    /* color: #FFFDF7; */
+    background-color: #F8F9F2;
+    /* background-color: #F9F7F2; */
+    background-clip: border-box;
+    border-radius: 0.25rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    overflow: hidden;
+    height: 100%;
+    /* Menambahkan height: 100%; */
+}
+
+.card-lokasi-body {
+    font-size: 0;
+    padding: 1.25rem;
+    z-index: 1;
+
+}
+
+.card-pesan {
+    /* color: #FFFDF7; */
+    background-color: #F8F9F2;
+    /* background-color: #F9F7F2; */
+    background-clip: border-box;
+    border-radius: 0.25rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    overflow: hidden;
+    height: 100%;
+    /* Menambahkan height: 100%; */
+}
+
+.card-pesan-body {
+    padding: 20px;
+    max-height: 300px;
+    /* Sesuaikan tinggi maksimum sesuai kebutuhan Anda */
+    overflow-y: auto;
+}
+
+.comment {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.nama {
+    font-weight: bold;
+    color: #333;
+    font-size: 1rem;
+}
+
+.comment .konfirmasi {
+    margin-top: 5px;
+    color: #666;
+    font-size: 1rem;
+}
+
+.comment .pesan {
+    margin-top: 10px;
+    color: #444;
+    font-size: 1rem;
+}
+
+
+.ijab {
+    font-size: 2rem;
+    margin: 0 0 0.75rem;
+    color: #be6464;
+}
+
+.sub-ijab {
+    font-size: 1rem;
+    margin: 0 0 0.75rem;
+    color: #be6464;
+}
+
+.top img {
+    width: 100%;
+}
+
+.bottom img {
+    width: 100%;
+    /* transform: scaleY(-1);
+    Memutar gambar secara horizontal */
+}
+
+.card-body {
+    font-size: 0;
+    padding: 1.25rem;
+    z-index: 1;
+
+}
+
+.card-title {
+    font-size: 1rem;
+    margin: 0 0 0.75rem;
+    color: #4F1E08;
+}
+
+.judul {
+    font-size: 1rem;
+    margin: 0 0 0.75rem;
+    color: #4F1E08;
+    font-weight: bold;
+}
+
+.sub-judul {
+    font-size: 1rem;
+    margin: 0 0 0.75rem;
+    color: #4F1E08;
+}
+
+.pembatas {
+    border-top: 1px solid #ccc;
+    /* Menggunakan garis tipis dengan warna abu-abu */
+    margin-top: 10px;
+    /* Atur jarak antara garis dan elemen di atasnya */
+    margin-bottom: 10px;
+    /* Atur jarak antara garis dan elemen di bawahnya */
+}
+
+.nama-pengantin {
+    font-size: 3rem;
+    font-family: Parisienne, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+        'Liberation Sans', sans-serif;
+    /* margin-bottom: 30px; */
+}
+
+.date {
+    font-size: 1rem;
+    margin: 0 0 0.75rem;
+    color: #4F1E08;
+    margin-top: 10px
+}
+
+.card-subtitle {
+    font-size: 2rem;
+    margin: 0 0 0.75rem;
+    color: #4F1E08;
+}
+
+.calonpengantin {
+    font-size: 0.9rem;
+    /* margin: 0 0 0.75rem; */
+    color: #FFFDF7;
+    background-color: #3D2C00;
+    /* Ganti dengan warna latar belakang yang Anda inginkan */
+    border-radius: 10px;
+    /* Sesuaikan nilai radius sesuai keinginan Anda */
+    padding: 10px;
+    /* Opsional: Tambahkan padding untuk memberi ruang di sekitar teks */
+    /* max-width: 300px; */
+    margin: 0 auto 0.75rem auto;
+}
+
+.img img {
+    /* width: 400px;
+    height: 220px; */
+    /* padding-bottom: 10px; */
+    max-width: 100%;
+    max-height: 220px;
+    padding-bottom: 10px;
+    display: block;
+    margin: 0 auto;
+}
+
+.img1 img {
+    /* width: 400px;
+    height: 220px; */
+    /* padding-bottom: 10px; */
+    max-width: 100%;
+    max-height: 320px;
+    padding-bottom: 10px;
+    display: block;
+    margin: 0 auto;
+}
+
+.time-section {
+    display: inline-block;
+    margin-left: 4px;
+}
+
+.time-section:first-child {
+    margin-left: 0;
+}
+
+.time-section>.value {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #4F1E08;
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    line-height: 100px;
+    text-align: center;
+}
+
+.time-label {
+    font-size: 0.8rem;
+    padding-top: 4px;
+    text-align: center;
+    color: #4F1E08;
+}
+
+.submit-btn {
+    background-color: #4CAF50;
+    /* Warna hijau */
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #45a049;
+    /* Warna hijau lebih gelap saat dihover */
+}
+
+.submit-btn:active {
+    background-color: #3e8e41;
+    /* Warna hijau lebih gelap saat diklik */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+    /* Efek bayangan saat diklik */
+}
