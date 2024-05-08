@@ -68,7 +68,7 @@ const UpdateProduct = ({
               <input
                 type="text"
                 value={price}
-                onChange={(e) => setPrice(Number(e.target.value))}
+                onChange={(e) => setPrice(e.target.value)}
                 className="input input-bordered"
                 placeholder="Price"
               />
