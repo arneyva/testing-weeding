@@ -8,6 +8,7 @@ import Countdown from "./countdown";
 import Image from 'next/image'
 const prisma = new PrismaClient();
 
+export const dynamic = "force-dynamic";
 const getProducts = async () => {
     const res = await prisma.product.findMany({
         select: {
@@ -264,4 +265,4 @@ const Product = async () => {
 };
 
 export default Product;
-export const dynamic = "force-dynamic";
+

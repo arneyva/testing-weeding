@@ -14,7 +14,7 @@ const AddProduct = ({ brands }: { brands: Brand[] }) => {
     e.preventDefault();
     await axios.post("/api/products", {
       title: title,
-      price: Number(price),
+      price: price,
       brandId: Number(brand),
     });
     setTitle("");
