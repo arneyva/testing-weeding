@@ -5,6 +5,7 @@ import CalonPengantin from "./kirimike";
 import DeleteProduct from "./deleteProduct";
 import UpdateProduct from "./updateProduct";
 import Countdown from "./countdown";
+import Image from 'next/image'
 const prisma = new PrismaClient();
 
 const getProducts = async () => {
@@ -39,21 +40,16 @@ const Product = async () => {
                         Ratih & Adi
                     </div>
                     <div className={styles.img}>
-                        <img src="/car2.png" alt="" />
-                        {/* <Image
+                        <Image
                             src="/car2.png"
                             alt="mobile"
-                            layout="responsive" // Untuk membuat gambar responsif
-                            width={225} // Menetapkan lebar maksimum
-                            height={500} // Menetapkan tinggi maksimum
-                        /> */}
+                            width={500} // Menetapkan lebar maksimum
+                            height={225} // Menetapkan tinggi maksimum
+                        />
                     </div>
                     <div className={styles["card-title"]}>
                         Kepada Yth. Bapak/Ibu/Saudara/i
                     </div>
-                    {/* <div className={styles.calonpengantin}>
-                        Mohamad Wijdan Arif
-                    </div> */}
                     <CalonPengantin />
                     <div className={styles.date}>
                         Minggu,24 June 2024
@@ -63,7 +59,12 @@ const Product = async () => {
             </div>
             <div className={styles.card}>
                 <div className={styles.top}>
-                    <img src="/cropatas.png" alt="" />
+                    <Image
+                        src="/cropatas.png"
+                        alt="mobile"
+                        width={500} // Menetapkan lebar maksimum
+                        height={225} // Menetapkan tinggi maksimum
+                    />
                 </div>
                 <div className={styles["card-body"]}>
                     <div className={styles.judul}>
@@ -77,7 +78,12 @@ const Product = async () => {
                     <div className={styles.pembatas}>
                     </div>
                     <div className={styles.img}>
-                        <img src="ratih.png" alt="" />
+                        <Image
+                            src="/ratih.png"
+                            alt="mobile"
+                            width={200}
+                            height={200}
+                        />
                     </div>
                     <div className={styles["nama-pengantin"]}>
                         Khoirunisa Ratih Islami
@@ -89,7 +95,12 @@ const Product = async () => {
                         .... & ....
                     </div>
                     <div className={styles.img}>
-                        <img src="adifix.png" alt="" />
+                        <Image
+                            src="/adifix.png"
+                            alt="mobile"
+                            width={200}
+                            height={200}
+                        />
                     </div>
                     <div className={styles["nama-pengantin"]}>
                         Adi septian
@@ -99,12 +110,22 @@ const Product = async () => {
                     </div>
                 </div>
                 <div className={styles.bottom}>
-                    <img src="cropbawah.png" alt="" />
+                    <Image
+                        src="/cropbawah.png"
+                        alt="mobile"
+                        width={500} // Menetapkan lebar maksimum
+                        height={225} // Menetapkan tinggi maksimum
+                    />
                 </div>
             </div>
             <div className={styles.card}>
                 <div className={styles.top}>
-                    <img src="cropatas.png" alt="" />
+                    <Image
+                        src="/cropatas.png"
+                        alt="mobile"
+                        width={500} // Menetapkan lebar maksimum
+                        height={225} // Menetapkan tinggi maksimum
+                    />
                 </div>
                 <div className={styles["card-body"]}>
                     <div className={styles.judul}>
@@ -115,12 +136,22 @@ const Product = async () => {
                     </div>
                 </div>
                 <div className={styles.bottom}>
-                    <img src="cropbawah.png" alt="" />
+                    <Image
+                        src="/cropbawah.png"
+                        alt="mobile"
+                        width={500} // Menetapkan lebar maksimum
+                        height={225} // Menetapkan tinggi maksimum
+                    />
                 </div>
             </div>
             <div className={styles.card}>
                 <div className={styles.top}>
-                    <img src="cropatas.png" alt="" />
+                    <Image
+                        src="/cropatas.png"
+                        alt="mobile"
+                        width={500} // Menetapkan lebar maksimum
+                        height={225} // Menetapkan tinggi maksimum
+                    />
                 </div>
                 <div className={styles["card-body"]}>
                     <div className={styles["card-lokasi"]}>
@@ -146,7 +177,12 @@ const Product = async () => {
                                 Scan atau Klik Qr dibawah untuk menuju Lokasi
                             </div>
                             <div className={styles.img}>
-                                < img src="qrfix1.png" alt="" style={{ maxWidth: "100px" }} />
+                                <Image
+                                    src="/qrfix1.png"
+                                    alt="mobile"
+                                    width={100}
+                                    height={100}
+                                />
                             </div >
                             <div className={styles["sub-ijab"]} style={{ fontSize: "0.7rem", marginTop: "10px" }}>
                                 Karanaggawang, Jumoyo, Salam, Magelang
@@ -156,13 +192,23 @@ const Product = async () => {
 
                 </div >
                 <div className={styles.bottom}>
-                    < img src="cropbawah.png" alt="" />
+                    <Image
+                        src="/cropbawah.png"
+                        alt="mobile"
+                        width={500} // Menetapkan lebar maksimum
+                        height={225} // Menetapkan tinggi maksimum
+                    />
                 </div >
             </div >
             <div className={styles.card}>
                 <div className={
                     styles.top}>
-                    <img src="cropatas.png" alt="" />
+                    <Image
+                        src="/cropatas.png"
+                        alt="mobile"
+                        width={500} // Menetapkan lebar maksimum
+                        height={225} // Menetapkan tinggi maksimum
+                    />
                 </div >
                 <div className={styles["card-body"]}>
                     < div className={
@@ -187,7 +233,12 @@ const Product = async () => {
                     </div>
                 </div>
                 <div className={styles.bottom}>
-                    < img src="cropbawah.png" alt="" />
+                    <Image
+                        src="/cropbawah.png"
+                        alt="mobile"
+                        width={500} // Menetapkan lebar maksimum
+                        height={225} // Menetapkan tinggi maksimum
+                    />
                 </div >
             </div>
             <div className={styles.card}>
