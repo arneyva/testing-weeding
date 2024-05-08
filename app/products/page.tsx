@@ -264,3 +264,4 @@ const Product = async () => {
 };
 
 export default Product;
+export const dynamic = "force-dynamic";
