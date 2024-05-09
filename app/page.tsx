@@ -1,5 +1,5 @@
 import { PrismaClient } from "@prisma/client";
-import './globals.css';
+// import './globals.css';
 import styles from "./products/Gaya.module.css";
 import AddProduct from "./products/addProduct";
 import CalonPengantin from "./products/kirimike";

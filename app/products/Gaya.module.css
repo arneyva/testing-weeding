@@ -79,18 +79,24 @@
     font-weight: bold;
     color: #333;
     font-size: 1rem;
+    font-family: Paprika, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+        'Liberation Sans', sans-serif;
 }
 
 .comment .konfirmasi {
     margin-top: 5px;
     color: #666;
     font-size: 1rem;
+    font-family: Paprika, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+        'Liberation Sans', sans-serif;
 }
 
 .comment .pesan {
     margin-top: 10px;
     color: #444;
     font-size: 1rem;
+    font-family: Paprika, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+        'Liberation Sans', sans-serif;
 }
 
 
@@ -98,12 +104,16 @@
     font-size: 2rem;
     margin: 0 0 0.75rem;
     color: #be6464;
+    font-family: Paprika, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+        'Liberation Sans', sans-serif;
 }
 
 .sub-ijab {
     font-size: 1rem;
     margin: 0 0 0.75rem;
     color: #be6464;
+    font-family: Paprika, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+        'Liberation Sans', sans-serif;
 }
 
 .top img {
@@ -127,6 +137,8 @@
     font-size: 1rem;
     margin: 0 0 0.75rem;
     color: #4F1E08;
+    font-family: Paprika, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+        'Liberation Sans', sans-serif;
 }
 
 .judul {
@@ -134,12 +146,16 @@
     margin: 0 0 0.75rem;
     color: #4F1E08;
     font-weight: bold;
+    font-family: Paprika, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+        'Liberation Sans', sans-serif;
 }
 
 .sub-judul {
     font-size: 1rem;
     margin: 0 0 0.75rem;
     color: #4F1E08;
+    font-family: Paprika, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+        'Liberation Sans', sans-serif;
 }
 
 .pembatas {
@@ -162,13 +178,17 @@
     font-size: 1rem;
     margin: 0 0 0.75rem;
     color: #4F1E08;
-    margin-top: 10px
+    margin-top: 10px;
+    font-family: Paprika, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+        'Liberation Sans', sans-serif;
 }
 
 .card-subtitle {
     font-size: 2rem;
     margin: 0 0 0.75rem;
     color: #4F1E08;
+    font-family: Paprika, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+        'Liberation Sans', sans-serif;
 }
 
 .calonpengantin {
@@ -269,6 +289,8 @@
     border-radius: 10px;
     line-height: 100px;
     text-align: center;
+    font-family: Paprika, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+        'Liberation Sans', sans-serif;
 }
 
 .time-label {
@@ -276,6 +298,8 @@
     padding-top: 4px;
     text-align: center;
     color: #4F1E08;
+    font-family: Paprika, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+        'Liberation Sans', sans-serif;
 }
 
 .submit-btn {
