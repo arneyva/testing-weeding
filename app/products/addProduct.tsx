@@ -12,15 +12,24 @@ const AddProduct = ({ brands }: { brands: Brand[] }) => {
 
   const handleSubmit = async (e: SyntheticEvent) => {
     e.preventDefault();
-    await axios.post("/api/products", {
-      title: title,
-      price: price,
-      brandId: Number(brand),
-    });
-    setTitle("");
-    setPrice("");
-    setBrand("");
-    router.refresh();
+    if (!title || !price || !brand) {
+      alert("Mohon isi semua bidang sebelum mengirim!");
+      return; // Menghentikan eksekusi lebih lanjut jika ada bidang yang kosong
+    }
+    try {
+      await axios.post("/api/products", {
+        title: title,
+        price: price,
+        brandId: Number(brand),
+      });
+      setTitle("");
+      setPrice("");
+      setBrand("");
+      router.refresh();
+    } catch (error) {
+      console.error("Terjadi kesalahan saat mengirim data:", error);
+      // Menangani kesalahan permintaan POST
+    }
   };
 
   return (
@@ -48,7 +57,7 @@ const AddProduct = ({ brands }: { brands: Brand[] }) => {
             ))}
           </select>
         </div>
-        <button type="submit" className="btn btn-primary">Submit</button>
+        <button type="submit" className="btn btn-primary" style={{ backgroundColor: '#4F1E08', borderColor: '#CE9E87' }}>Submit</button>
       </form>
     </div>
   );

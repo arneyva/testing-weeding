@@ -21,6 +21,7 @@
     overflow: hidden;
     height: 100%;
     background: linear-gradient(to bottom, #F9F7F2 0%, #FFFDF7 25%, #F8F9F2 100%);
+    animation: updown 3s linear infinite;
     /* Gradasi warna dari atas ke bawah */
     /* Menambahkan height: 100%; */
 }
@@ -219,6 +220,25 @@
     padding-bottom: 10px;
     display: block;
     margin: 0 auto;
+    /* animation: updown 3s linear infinite; */
+}
+
+/* .banner img {
+    animation: updown 3s linear infinite;
+} */
+
+@keyframes updown {
+    0% {
+        transform: translateY(-5px);
+    }
+
+    50% {
+        transform: translateY(5px);
+    }
+
+    100% {
+        transform: translateY(-5px);
+    }
 }
 
 .img1 img {
@@ -261,7 +281,7 @@
 }
 
 .submit-btn {
-    background-color: #4CAF50;
+    background-color: #4F1E08;
     /* Warna hijau */
     border: none;
     color: white;
@@ -277,13 +297,27 @@
 }
 
 .submit-btn:hover {
-    background-color: #45a049;
+    background-color: #4F1E08;
     /* Warna hijau lebih gelap saat dihover */
 }
 
 .submit-btn:active {
-    background-color: #3e8e41;
+    background-color: #4F1E08;
     /* Warna hijau lebih gelap saat diklik */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
     /* Efek bayangan saat diklik */
+}
+
+#submitBtn.btn-primary {
+    background-color: #007bff;
+    /* Warna latar belakang */
+    border-color: #007bff;
+    /* Warna border */
+}
+
+#submitBtn.btn-primary:hover {
+    background-color: #0056b3;
+    /* Warna latar belakang saat dihover */
+    border-color: #0056b3;
+    /* Warna border saat dihover */
 }

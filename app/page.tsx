@@ -44,6 +44,7 @@ const Product = async () => {
               alt="mobile"
               width={500} // Menetapkan lebar maksimum
               height={225} // Menetapkan tinggi maksimum
+              priority={true}
             />
           </div>
           <div className={styles["card-title"]}>
@@ -82,6 +83,7 @@ const Product = async () => {
               alt="mobile"
               width={200}
               height={200}
+              priority={true}
             />
           </div>
           <div className={styles["nama-pengantin"]}>
@@ -99,6 +101,7 @@ const Product = async () => {
               alt="mobile"
               width={200}
               height={200}
+              priority={true}
             />
           </div>
           <div className={styles["nama-pengantin"]}>
