@@ -1,0 +1,17 @@
+/* MusicPlayer.module.css */
+
+.musicPlayer {
+    position: fixed;
+    top: 20px;
+    /* Sesuaikan posisi sesuai kebutuhan */
+    right: 20px;
+    /* Sesuaikan posisi sesuai kebutuhan */
+    z-index: 1000;
+    /* Pastikan berada di atas elemen lainnya */
+}
+
+.musicButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+}

@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Paprika&family=Parisienne&display=swap');
 
 .container {
+
     margin: 0 auto;
     max-width: 630px;
     min-height: 100vh;
@@ -39,9 +40,36 @@
     /* Menambahkan height: 100%; */
 }
 
+.floating-nav {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+    /* Pastikan navigasi melayang berada di atas elemen lain */
+}
+
+.floating-nav a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #333;
+    /* Warna teks */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.floating-nav a:hover {
+    color: #555;
+    /* Warna teks saat dihover */
+}
+
 .card-lokasi-body {
     font-size: 0;
-    padding: 1.25rem;
+    /* padding: 1.25rem; */
     z-index: 1;
 
 }
@@ -142,6 +170,7 @@
 }
 
 .judul {
+
     font-size: 1rem;
     margin: 0 0 0.75rem;
     color: #4F1E08;
@@ -159,7 +188,7 @@
 }
 
 .pembatas {
-    border-top: 1px solid #ccc;
+    border-top: 3px solid #ccc;
     /* Menggunakan garis tipis dengan warna abu-abu */
     margin-top: 10px;
     /* Atur jarak antara garis dan elemen di atasnya */
@@ -168,7 +197,7 @@
 }
 
 .nama-pengantin {
-    font-size: 3rem;
+    font-size: 2rem;
     font-family: Parisienne, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
         'Liberation Sans', sans-serif;
     /* margin-bottom: 30px; */

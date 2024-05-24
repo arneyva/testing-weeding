@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Paprika&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Paprika&family=Parisienne&display=swap');
+
+/* * {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    font-family: Paprika, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+        'Liberation Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+} */
+
+.container {
+    /* background-image: url('mei.png'); */
+    /* background-color: bisque; */
+    height: 100vh;
+    width: 100%;
+    /* background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
+    /*  */
+    max-width: 630px;
+    margin: 0 auto;
+}
+
+.card {
+    background-image: url('/fixback.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-color: #F9F7F2; */
+    background-clip: border-box;
+    border-radius: 0.25rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* margin-top: 20px; */
+    /* margin-bottom: 20px; */
+    text-align: center;
+    overflow: hidden;
+    height: 100%;
+    /* Menambahkan height: 100%; */
+    position: relative;
+    /* Menambahkan properti position: relative; */
+
+    /* display: flex; */
+    /* Menggunakan Flexbox */
+    /* flex-direction: column; */
+    /* Menetapkan flex direction ke column */
+    /* min-height: 100vh; */
+    /* Menjadikan tinggi minimal setara dengan tinggi viewport */
+    display: flex;
+    justify-content: center;
+    /* Memposisikan konten secara horizontal ke tengah */
+    align-items: center;
+}
+
+.card::before,
+.card::after {
+    content: "";
+    position: absolute;
+    width: 150px;
+    /* Sesuaikan ukuran gambar dengan kebutuhan Anda */
+    height: 150px;
+    /* Sesuaikan ukuran gambar dengan kebutuhan Anda */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card::before {
+    top: 0;
+    right: 0;
+    background-image: url('/12345.png');
+    z-index: 0;
+    /* Ganti dengan URL gambar untuk sisi top-right */
+    background-position: top right;
+    /* Mengatur posisi gambar latar belakang di tepi atas kanan card */
+}
+
+.card::after {
+    bottom: 0;
+    left: 0;
+    background-image: url('/kirifix.png');
+    z-index: 0;
+    /* Ganti dengan URL gambar untuk sisi bottom-left */
+    background-position: bottom left;
+    animation: fadeIn 5s ease;
+    animation-delay: 0.5s;
+    /* Mengatur posisi gambar latar belakang di tepi bawah kiri card */
+}
+
+.card-body {
+    font-size: 0;
+    padding: 1.25rem;
+    z-index: 1;
+    text-align: center;
+
+}
+
+.weeding-day {
+    font-size: 1rem;
+    margin: 0 0 0.75rem;
+    color: #faf5f2;
+    animation: slideInFromTop 5s ease forwards;
+    /* Panggil animasi */
+    animation-delay: 0.5s;
+    /* Tunda mulai animasi */
+}
+
+.ratih-adi {
+    font-size: 2.5rem;
+    margin: 0 0 0.75rem;
+    color: #faf5f2;
+    animation: slideInFromTop 5s ease forwards;
+    /* Panggil animasi */
+    animation-delay: 0.5s;
+    font-family: Parisienne, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+        'Liberation Sans', sans-serif;
+    /* Tunda mulai animasi */
+}
+
+.kepada-yth {
+    font-size: 13px;
+    /* margin: 0 0 0.75rem; */
+    color: #faf5f2;
+    animation: slideInFromTop 5s ease forwards;
+    /* Panggil animasi */
+    animation-delay: 0.5s;
+    margin-top: 30px;
+    /* Tunda mulai animasi */
+}
+
+.wijdan {
+    margin-top: 10px;
+    font-size: 0.7rem;
+    /* margin: 0 0 0.75rem; */
+    color: #faf5f2;
+    animation: slideInFromTop 5s ease forwards;
+    /* Panggil animasi */
+    animation-delay: 0.5s;
+    /* margin-top: 40px; */
+    /* Tunda mulai animasi */
+}
+
+.calonpengantin {
+    font-size: 0.7rem;
+    /* margin: 0 0 0.75rem; */
+    /* color: #FFFDF7; */
+    background-color: #ddbdae;
+    /* Ganti dengan warna latar belakang yang Anda inginkan */
+    border-radius: 10px;
+    /* Sesuaikan nilai radius sesuai keinginan Anda */
+    padding: 10px;
+    /* Opsional: Tambahkan padding untuk memberi ruang di sekitar teks */
+    /* max-width: 300px; */
+    /* margin: 0 auto 0.75rem auto; */
+    margin-top: 20px;
+}
+
+.date {
+    font-size: 13px;
+    margin: 0 0 0.75rem;
+    color: #faf5f2;
+    /* margin-top: 10px */
+    margin-bottom: 40px;
+}
