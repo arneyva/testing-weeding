@@ -49,7 +49,6 @@ const ClientComponent = ({ products, brands }: { products: Product[], brands: Br
                         <a href="#tempat">Card 2</a>
                         <a href="#rsvp">Card 2</a>
                         <a href="#closing">Card 2</a>
-
                     </div>
                     {/* ayat arum */}
                     <div className={styles.card} id="ayat-arum">

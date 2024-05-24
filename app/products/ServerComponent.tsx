@@ -2,7 +2,7 @@ import { PrismaClient } from "@prisma/client";
 import ClientComponent from "./ClientComponent";
 
 const prisma = new PrismaClient();
-
+export const dynamic = "force-dynamic";
 export const getProducts = async () => {
     const res = await prisma.product.findMany({
         select: {
