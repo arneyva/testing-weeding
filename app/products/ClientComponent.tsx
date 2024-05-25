@@ -11,6 +11,8 @@ import Awalan from "../awalan/page";
 import Image from 'next/image'
 import MusicPlayer from "./MusicPlayer";
 
+// export const dynamic = "force-dynamic";
+
 interface Product {
     id: number;
     title: string;
