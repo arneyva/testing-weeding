@@ -14,18 +14,23 @@ body {
     font-weight: 400;
     line-height: 1.5;
 } */
+/* body {
+    overflow: hidden;
+} */
 
 .container {
-    /* background-image: url('mei.png'); */
-    /* background-color: bisque; */
     height: 100vh;
     width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    overflow: hidden;
+    /* Pastikan tidak ada scroll di .container */
+    /* background-image: url('mei.png'); */
+    /* background-color: bisque; */
     /* background-size: cover;
     background-position: center;
     background-repeat: no-repeat; */
     /*  */
-    max-width: 630px;
-    margin: 0 auto;
 }
 
 .card {
@@ -33,29 +38,28 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    /* background-color: #F9F7F2; */
     background-clip: border-box;
     border-radius: 0.25rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    /* margin-top: 20px; */
-    /* margin-bottom: 20px; */
     text-align: center;
     overflow: hidden;
     height: 100%;
-    /* Menambahkan height: 100%; */
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     /* Menambahkan properti position: relative; */
-
+    /* margin-top: 20px; */
+    /* margin-bottom: 20px; */
     /* display: flex; */
     /* Menggunakan Flexbox */
     /* flex-direction: column; */
     /* Menetapkan flex direction ke column */
     /* min-height: 100vh; */
     /* Menjadikan tinggi minimal setara dengan tinggi viewport */
-    display: flex;
-    justify-content: center;
+    /* background-color: #F9F7F2; */
     /* Memposisikan konten secara horizontal ke tengah */
-    align-items: center;
+    /* Menambahkan height: 100%; */
 }
 
 .card::before,
@@ -63,11 +67,11 @@ body {
     content: "";
     position: absolute;
     width: 150px;
-    /* Sesuaikan ukuran gambar dengan kebutuhan Anda */
     height: 150px;
-    /* Sesuaikan ukuran gambar dengan kebutuhan Anda */
     background-repeat: no-repeat;
     background-size: cover;
+    /* Sesuaikan ukuran gambar dengan kebutuhan Anda */
+    /* Sesuaikan ukuran gambar dengan kebutuhan Anda */
 }
 
 .card::before {
@@ -75,8 +79,10 @@ body {
     right: 0;
     background-image: url('/12345.png');
     z-index: 0;
-    /* Ganti dengan URL gambar untuk sisi top-right */
     background-position: top right;
+    animation: fadeIn 5s ease;
+    animation-delay: 0.5s;
+    /* Ganti dengan URL gambar untuk sisi top-right */
     /* Mengatur posisi gambar latar belakang di tepi atas kanan card */
 }
 
@@ -85,11 +91,11 @@ body {
     left: 0;
     background-image: url('/kirifix.png');
     z-index: 0;
-    /* Ganti dengan URL gambar untuk sisi bottom-left */
     background-position: bottom left;
     animation: fadeIn 5s ease;
     animation-delay: 0.5s;
     /* Mengatur posisi gambar latar belakang di tepi bawah kiri card */
+    /* Ganti dengan URL gambar untuk sisi bottom-left */
 }
 
 .card-body {
@@ -105,8 +111,8 @@ body {
     margin: 0 0 0.75rem;
     color: #faf5f2;
     animation: slideInFromTop 5s ease forwards;
-    /* Panggil animasi */
     animation-delay: 0.5s;
+    /* Panggil animasi */
     /* Tunda mulai animasi */
 }
 
@@ -130,6 +136,7 @@ body {
     /* Panggil animasi */
     animation-delay: 0.5s;
     margin-top: 30px;
+
     /* Tunda mulai animasi */
 }
 
@@ -158,6 +165,8 @@ body {
     /* max-width: 300px; */
     /* margin: 0 auto 0.75rem auto; */
     margin-top: 20px;
+    animation: slideUp 5s ease forwards;
+    animation-delay: 0.5s;
 }
 
 .date {
@@ -166,4 +175,71 @@ body {
     color: #faf5f2;
     /* margin-top: 10px */
     margin-bottom: 40px;
+    animation: fadeIn 5s ease;
+    animation-delay: 0.5s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        /* Mulai dari opacity 0 */
+    }
+
+    to {
+        opacity: 1;
+        /* Akhiri pada opacity 1 */
+    }
+}
+
+@keyframes slideInFromTop {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+        /* Mulai dari luar layar atas */
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+        /* Akhiri di posisi normal */
+    }
+}
+
+@keyframes slideUp {
+    0% {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
+
+@keyframes slideLeft {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideLeftAndFadeOut {
+    0% {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+
+    50% {
+        transform: translateX(100%);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
 }

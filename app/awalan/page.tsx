@@ -1,4 +1,3 @@
-// import React from 'react'
 import styles from "./Awalan.module.css"
 const Awalan = () => {
     return (
