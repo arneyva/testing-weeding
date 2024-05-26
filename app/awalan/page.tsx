@@ -13,7 +13,7 @@ const Awalan = () => {
                             Ratih & Adi
                         </div>
                         <div className={styles.date}>
-                            Minggu,24 June 2024
+                            Minggu, 23 Juni 2024
                         </div>
                         <div className={styles["kepada-yth"]}>
                             Kepada Yth. Bapak/Ibu/Saudara/i

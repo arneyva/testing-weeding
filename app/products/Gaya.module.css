@@ -196,6 +196,8 @@
     padding: 10px;
     margin: 0 auto 0.75rem auto;
     animation: calonpengantin 2s infinite;
+    font-family: Paprika, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+        'Liberation Sans', sans-serif;
 }
 
 .kirimke {

@@ -92,20 +92,20 @@ const ClientComponent = ({ products, brands }: { products: Product[], brands: Br
                         <div className={styles["card-body"]}>
                             <div className={styles.pembatas}>
                             </div>
-                            <div className={styles["nama-pengantin"]}>
-                                Khoirunisa Ratih Islami
+                            <div className={styles["nama-pengantin"]} style={{ fontWeight: 'bold' }}>
+                                Khoirunnisa Ratih Islami
                             </div>
-                            <div className={styles.judul}>
-                                Putri dari bapak Sukamta & Ibu Sri Hartati
+                            <div className={styles.judul} style={{ fontSize: '0.6rem' }}>
+                                Putri dari Bapak Sukamta & Ibu Sri Hartati
                             </div>
-                            <div className={styles["nama-pengantin"]}>
+                            <div className={styles["nama-pengantin"]} >
                                 &
                             </div>
-                            <div className={styles["nama-pengantin"]}>
+                            <div className={styles["nama-pengantin"]} style={{ fontWeight: 'bold' }}>
                                 Adi Septian
                             </div>
-                            <div className={styles.judul}>
-                                Putra dari bapak Baiman Kusyono & Ibu Kasinah
+                            <div className={styles.judul} style={{ fontSize: '0.6rem' }}>
+                                Putra dari Bapak Baiman Kusyono & Ibu Kasinah
                             </div>
                             <div className={styles.pembatas}>
                             </div>
@@ -138,9 +138,7 @@ const ClientComponent = ({ products, brands }: { products: Product[], brands: Br
                                 Akad Nikah
                             </div>
                             <div className={styles["card-title"]} style={{ fontSize: "0.7rem" }}>
-                                Masjid Muhaibin,Karanggawang,Jumoyo,Salam
-                                <br />
-                                Pukul 06.00 - Selesai
+                                Pukul 06.00 WIB
                             </div>
                             <div className={styles["nama-pengantin"]}>
                                 &
@@ -149,9 +147,16 @@ const ClientComponent = ({ products, brands }: { products: Product[], brands: Br
                                 Resepsi Pernikahan
                             </div>
                             <div className={styles["card-title"]} style={{ fontSize: "0.7rem" }}>
-                                Rumah Bpk Sukamta,Karanggawang,Jumoyo,Salam
-                                <br />
-                                Pukul 08.00 - Selesai
+                                Kediaman Mempelai Wanita
+                            </div>
+                            <div className={styles["card-title"]} style={{ fontSize: "0.7rem" }}>
+
+                                Dusun Karanggawang RT. 006 RW. 009, Jumoyo, Salam, Magelang
+
+                            </div>
+                            <div className={styles["card-title"]} style={{ fontSize: "0.7rem" }}>
+
+                                Pukul 12.00 - 14.00 WIB
                             </div>
                             <div className={styles.pembatas}></div>
                             <Countdown />
@@ -191,7 +196,10 @@ const ClientComponent = ({ products, brands }: { products: Product[], brands: Br
                             </div >
                             <div className={styles.pembatas}></div>
                             <div className={styles["card-title"]} style={{ fontSize: "0.7rem" }}>
-                                Rumah Bpk Sukamta,Karanggawang,Jumoyo,Salam
+                                Kediaman Mempelai Wanita
+                            </div>
+                            <div className={styles["card-title"]} style={{ fontSize: "0.7rem" }}>
+                                Dusun Karanggawang RT. 006 RW. 009, Jumoyo, Salam, Magelang
                             </div>
                             <a href="https://maps.app.goo.gl/qDzcUJRBAWXd3NsV8" target="_blank">
                                 <div className={styles.calonpengantin}>
