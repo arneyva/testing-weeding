@@ -14,6 +14,36 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'GreatVibes-Regular';
+    src: url('/fonts/GreatVibes-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/fonts/Montserrat-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/fonts/Montserrat-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+.judul {
+    font-size: 1rem;
+    margin: 0 0 0.75rem;
+    color: #4F1E08;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
 .container {
 
     margin: 0 auto;
@@ -137,19 +167,11 @@
     font-size: 1rem;
     margin: 0 0 0.75rem;
     color: #4F1E08;
-    font-family: Paprika, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-        'Liberation Sans', sans-serif;
-}
-
-.judul {
-
-    font-size: 1rem;
-    margin: 0 0 0.75rem;
-    color: #4F1E08;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    font-family: Paprika, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-        'Liberation Sans', sans-serif;
 }
+
+
 
 .sub-judul {
     font-size: 1rem;
@@ -167,8 +189,8 @@
 
 .nama-pengantin {
     font-size: 2rem;
-    font-family: Parisienne, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-        'Liberation Sans', sans-serif;
+    color: #4F1E08;
+    font-family: 'GreatVibes-Regular', sans-serif;
 }
 
 .date {
@@ -176,16 +198,16 @@
     margin: 0 0 0.75rem;
     color: #4F1E08;
     margin-top: 10px;
-    font-family: Paprika, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-        'Liberation Sans', sans-serif;
+    /* font-family: Paprika, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+        'Liberation Sans', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
 }
 
 .card-subtitle {
     font-size: 2rem;
     margin: 0 0 0.75rem;
     color: #4F1E08;
-    font-family: Paprika, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-        'Liberation Sans', sans-serif;
+    font-family: 'Montserrat';
 }
 
 .calonpengantin {
@@ -195,9 +217,8 @@
     border-radius: 10px;
     padding: 10px;
     margin: 0 auto 0.75rem auto;
-    animation: calonpengantin 2s infinite;
-    font-family: Paprika, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-        'Liberation Sans', sans-serif;
+    /* animation: calonpengantin 2s infinite; */
+    font-family: 'Montserrat', sans-serif;
 }
 
 .kirimke {
@@ -271,7 +292,7 @@
 
 .time-section>.value {
     font-size: 2.5rem;
-    font-weight: bold;
+    /* font-weight: bold; */
     color: #4F1E08;
     background-color: white;
     height: 100px;
@@ -279,8 +300,7 @@
     border-radius: 10px;
     line-height: 100px;
     text-align: center;
-    font-family: Paprika, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-        'Liberation Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .time-label {
@@ -288,8 +308,7 @@
     padding-top: 4px;
     text-align: center;
     color: #4F1E08;
-    font-family: Paprika, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-        'Liberation Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /*  */

@@ -92,19 +92,19 @@ const ClientComponent = ({ products, brands }: { products: Product[], brands: Br
                         <div className={styles["card-body"]}>
                             <div className={styles.pembatas}>
                             </div>
-                            <div className={styles["nama-pengantin"]} style={{ fontWeight: 'bold' }}>
+                            <div className={styles["nama-pengantin"]} >
                                 Khoirunnisa Ratih Islami
                             </div>
-                            <div className={styles.judul} style={{ fontSize: '0.6rem' }}>
+                            <div className={styles.judul} style={{ fontSize: '0.7rem' }}>
                                 Putri dari Bapak Sukamta & Ibu Sri Hartati
                             </div>
                             <div className={styles["nama-pengantin"]} >
                                 &
                             </div>
-                            <div className={styles["nama-pengantin"]} style={{ fontWeight: 'bold' }}>
+                            <div className={styles["nama-pengantin"]}>
                                 Adi Septian
                             </div>
-                            <div className={styles.judul} style={{ fontSize: '0.6rem' }}>
+                            <div className={styles.judul} style={{ fontSize: '0.7rem' }}>
                                 Putra dari Bapak Baiman Kusyono & Ibu Kasinah
                             </div>
                             <div className={styles.pembatas}>
