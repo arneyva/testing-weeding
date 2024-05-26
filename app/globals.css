@@ -1,10 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/* @import url('https://fonts.googleapis.com/css2?family=Paprika&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Paprika&family=Parisienne&display=swap');
-@import 'bootstrap/dist/css/bootstrap.min.css';
 
+@font-face {
+    font-family: 'Paprika';
+    src: url('/fonts/Paprika-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Parisienne';
+    src: url('/fonts/Parisienne-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* 
 body {
     background-color: white;
     font-family: Paprika, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',

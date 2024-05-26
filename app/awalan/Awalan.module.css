@@ -1,6 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Paprika&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Paprika&family=Parisienne&display=swap');
+@font-face {
+    font-family: 'Paprika';
+    src: url('/fonts/Paprika-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
+@font-face {
+    font-family: 'Parisienne';
+    src: url('/fonts/Parisienne-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
 .container {
     height: 100vh;
