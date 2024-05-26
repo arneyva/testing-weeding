@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import './globals.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -13,6 +14,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <Head>
+        <title>{metadata.title}</title>
+        <meta name="description" content={metadata.description} />
+        <link rel="icon" href="/logo.png" />
+      </Head>
       <body>{children}</body>
     </html>
   )
