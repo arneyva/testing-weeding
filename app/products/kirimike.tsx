@@ -7,7 +7,7 @@ const CalonPengantin = () => {
     const toParam = searchParams.get("to");
 
     return (
-        <div className={styles.calonpengantin}>{toParam || "Mohamad Wijdan Arif"}</div>
+        <div className={styles.kirimke}>{toParam || "Mohamad Wijdan Arif"}</div>
     );
 };
 

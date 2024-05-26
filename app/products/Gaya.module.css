@@ -6,7 +6,6 @@
     margin: 0 auto;
     max-width: 630px;
     min-height: 100vh;
-    /* Menambahkan min-height: 100vh; */
 }
 
 .card {
@@ -21,14 +20,10 @@
     height: 100%;
     background: linear-gradient(to bottom, #F9F7F2 0%, #FFFDF7 25%, #F8F9F2 100%);
     animation: updown 3s linear infinite;
-    /* Gradasi warna dari atas ke bawah */
-    /* Menambahkan height: 100%; */
 }
 
 .card-lokasi {
-    /* color: #FFFDF7; */
     background-color: #F8F9F2;
-    /* background-color: #F9F7F2; */
     background-clip: border-box;
     border-radius: 0.25rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -37,47 +32,16 @@
     text-align: center;
     overflow: hidden;
     height: 100%;
-    /* Menambahkan height: 100%; */
-}
-
-.floating-nav {
-    position: fixed;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: rgba(255, 255, 255, 0.9);
-    padding: 10px 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    z-index: 999;
-    /* Pastikan navigasi melayang berada di atas elemen lain */
-}
-
-.floating-nav a {
-    display: inline-block;
-    margin-right: 10px;
-    color: #333;
-    /* Warna teks */
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-.floating-nav a:hover {
-    color: #555;
-    /* Warna teks saat dihover */
 }
 
 .card-lokasi-body {
     font-size: 0;
-    /* padding: 1.25rem; */
     z-index: 1;
 
 }
 
 .card-pesan {
-    /* color: #FFFDF7; */
     background-color: #F8F9F2;
-    /* background-color: #F9F7F2; */
     background-clip: border-box;
     border-radius: 0.25rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -86,13 +50,11 @@
     text-align: center;
     overflow: hidden;
     height: 100%;
-    /* Menambahkan height: 100%; */
 }
 
 .card-pesan-body {
     padding: 20px;
     max-height: 300px;
-    /* Sesuaikan tinggi maksimum sesuai kebutuhan Anda */
     overflow-y: auto;
 }
 
@@ -150,15 +112,12 @@
 
 .bottom img {
     width: 100%;
-    /* transform: scaleY(-1);
-    Memutar gambar secara horizontal */
 }
 
 .card-body {
     font-size: 0;
     padding: 1.25rem;
     z-index: 1;
-
 }
 
 .card-title {
@@ -189,18 +148,14 @@
 
 .pembatas {
     border-top: 3px solid #ccc;
-    /* Menggunakan garis tipis dengan warna abu-abu */
     margin-top: 10px;
-    /* Atur jarak antara garis dan elemen di atasnya */
     margin-bottom: 10px;
-    /* Atur jarak antara garis dan elemen di bawahnya */
 }
 
 .nama-pengantin {
     font-size: 2rem;
     font-family: Parisienne, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
         'Liberation Sans', sans-serif;
-    /* margin-bottom: 30px; */
 }
 
 .date {
@@ -222,18 +177,20 @@
 
 .calonpengantin {
     font-size: 0.9rem;
-    /* margin: 0 0 0.75rem; */
     color: #FFFDF7;
     background-color: #3D2C00;
-    /* Ganti dengan warna latar belakang yang Anda inginkan */
     border-radius: 10px;
-    /* Sesuaikan nilai radius sesuai keinginan Anda */
     padding: 10px;
-    /* Opsional: Tambahkan padding untuk memberi ruang di sekitar teks */
-    /* max-width: 300px; */
     margin: 0 auto 0.75rem auto;
     animation: calonpengantin 2s infinite;
-    /* Terapkan animasi */
+}
+
+.kirimke {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #FFFDF7;
+    margin-top: 20px;
+    animation: calonpengantin 2s infinite;
 }
 
 @keyframes calonpengantin {
@@ -259,20 +216,10 @@
 }
 
 .img img {
-    /* width: 400px;
-    height: 220px; */
-    /* padding-bottom: 10px; */
-    /* max-width: 100%;
-    max-height: 220px; */
     padding-bottom: 10px;
     display: block;
     margin: 0 auto;
-    /* animation: updown 3s linear infinite; */
 }
-
-/* .banner img {
-    animation: updown 3s linear infinite;
-} */
 
 @keyframes updown {
     0% {
@@ -289,9 +236,6 @@
 }
 
 .img1 img {
-    /* width: 400px;
-    height: 220px; */
-    /* padding-bottom: 10px; */
     max-width: 100%;
     max-height: 320px;
     padding-bottom: 10px;
@@ -331,44 +275,4 @@
         'Liberation Sans', sans-serif;
 }
 
-.submit-btn {
-    background-color: #4F1E08;
-    /* Warna hijau */
-    border: none;
-    color: white;
-    padding: 12px 24px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 4px;
-    transition: background-color 0.3s ease;
-}
-
-.submit-btn:hover {
-    background-color: #4F1E08;
-    /* Warna hijau lebih gelap saat dihover */
-}
-
-.submit-btn:active {
-    background-color: #4F1E08;
-    /* Warna hijau lebih gelap saat diklik */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
-    /* Efek bayangan saat diklik */
-}
-
-#submitBtn.btn-primary {
-    background-color: #007bff;
-    /* Warna latar belakang */
-    border-color: #007bff;
-    /* Warna border */
-}
-
-#submitBtn.btn-primary:hover {
-    background-color: #0056b3;
-    /* Warna latar belakang saat dihover */
-    border-color: #0056b3;
-    /* Warna border saat dihover */
-}
+/*  */

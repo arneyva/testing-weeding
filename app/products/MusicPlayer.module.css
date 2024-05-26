@@ -2,16 +2,40 @@
 
 .musicPlayer {
     position: fixed;
-    top: 20px;
+    bottom: 20px;
     /* Sesuaikan posisi sesuai kebutuhan */
     right: 20px;
     /* Sesuaikan posisi sesuai kebutuhan */
     z-index: 1000;
     /* Pastikan berada di atas elemen lainnya */
+    animation: vibrate 2.5s ease-in-out infinite;
 }
 
 .musicButton {
     background: none;
     border: none;
     cursor: pointer;
+}
+
+/* Animasi bergetar */
+@keyframes vibrate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(15deg);
+    }
+
+    50% {
+        transform: rotate(-10deg);
+    }
+
+    75% {
+        transform: rotate(5deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
 }

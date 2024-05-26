@@ -1,13 +1,13 @@
 "use client";
 
 import React, { useState } from "react";
-import styles from "./Gaya.module.css";
-import AddProduct from "./addProduct";
-import CalonPengantin from "./kirimike";
-import Countdown from "./countdown";
-import Awalan from "../awalan/page";
+import styles from "./products/Gaya.module.css";
+import AddProduct from "./products/addProduct";
+import CalonPengantin from "./products/kirimike";
+import Countdown from "./products/countdown";
+import Awalan from "./awalan/page";
 import Image from 'next/image'
-import MusicPlayer from "./MusicPlayer";
+import MusicPlayer from "./products/MusicPlayer";
 
 // export const dynamic = "force-dynamic";
 
@@ -90,24 +90,8 @@ const ClientComponent = ({ products, brands }: { products: Product[], brands: Br
                             />
                         </div>
                         <div className={styles["card-body"]}>
-                            {/* <div className={styles.judul}>
-                Bismillahirrahmanirrahim <br />
-                Assalamualaikum Warahmatullahi Wabarakatuh
-            </div>
-            <div className={styles["sub-judul"]}>
-                Dengan memohon rahmat dan ridho Allah SWT, kami bermaksud menyelenggarakan acara pernikahan
-                putra-putri kami:
-            </div> */}
                             <div className={styles.pembatas}>
                             </div>
-                            {/* <div className={styles.img}>
-                <Image
-                    src="/ratih.png"
-                    alt="mobile"
-                    width={200}
-                    height={200}
-                />
-            </div> */}
                             <div className={styles["nama-pengantin"]}>
                                 Khoirunisa Ratih Islami
                             </div>
@@ -117,14 +101,6 @@ const ClientComponent = ({ products, brands }: { products: Product[], brands: Br
                             <div className={styles["nama-pengantin"]}>
                                 &
                             </div>
-                            {/* <div className={styles.img}>
-                <Image
-                    src="/adifix.png"
-                    alt="mobile"
-                    width={200}
-                    height={200}
-                />
-            </div> */}
                             <div className={styles["nama-pengantin"]}>
                                 Adi Septian
                             </div>

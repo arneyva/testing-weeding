@@ -35,7 +35,7 @@ import Image from 'next/image';
 import styles from './MusicPlayer.module.css'; // Buat file CSS terpisah untuk komponen ini
 
 const MusicPlayer = () => {
-    const [audioPlaying, setAudioPlaying] = useState(false);
+    const [audioPlaying, setAudioPlaying] = useState(true);
     const [audio] = useState(new Audio("/cintaterakhir.mp3"));
 
     useEffect(() => {
@@ -54,7 +54,7 @@ const MusicPlayer = () => {
         <div className={styles.musicPlayer}>
             <button onClick={toggleAudio} className={styles.musicButton}>
                 <Image
-                    src={audioPlaying ? "/stop.svg" : "/play.svg"}
+                    src={audioPlaying ? "/onn.png" : "/off.png"}
                     alt={audioPlaying ? "Stop Music" : "Play Music"}
                     width={50}
                     height={50}

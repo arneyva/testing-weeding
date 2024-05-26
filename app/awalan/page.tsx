@@ -1,3 +1,4 @@
+import CalonPengantin from "../products/kirimike"
 import styles from "./Awalan.module.css"
 const Awalan = () => {
     return (
@@ -17,9 +18,7 @@ const Awalan = () => {
                         <div className={styles["kepada-yth"]}>
                             Kepada Yth. Bapak/Ibu/Saudara/i
                         </div>
-                        <div className={styles.wijdan}>
-                            Mohamad Wijdan Arif
-                        </div>
+                        <CalonPengantin />
                         <div className={styles.calonpengantin}>
                             Open Invitation
                         </div>

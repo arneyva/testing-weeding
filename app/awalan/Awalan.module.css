@@ -72,8 +72,6 @@
     color: #faf5f2;
     animation: slideInFromTop 5s ease forwards;
     animation-delay: 0.5s;
-    /* Panggil animasi */
-    /* Tunda mulai animasi */
 }
 
 .ratih-adi {
@@ -81,19 +79,15 @@
     margin: 0 0 0.75rem;
     color: #faf5f2;
     animation: slideInFromTop 5s ease forwards;
-    /* Panggil animasi */
     animation-delay: 0.5s;
     font-family: Parisienne, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
         'Liberation Sans', sans-serif;
-    /* Tunda mulai animasi */
 }
 
 .kepada-yth {
     font-size: 13px;
-    /* margin: 0 0 0.75rem; */
     color: #faf5f2;
     animation: slideInFromTop 5s ease forwards;
-    /* Panggil animasi */
     animation-delay: 0.5s;
     margin-top: 30px;
 
@@ -103,27 +97,16 @@
 .wijdan {
     margin-top: 10px;
     font-size: 0.7rem;
-    /* margin: 0 0 0.75rem; */
     color: #faf5f2;
     animation: slideInFromTop 5s ease forwards;
-    /* Panggil animasi */
     animation-delay: 0.5s;
-    /* margin-top: 40px; */
-    /* Tunda mulai animasi */
 }
 
 .calonpengantin {
     font-size: 0.7rem;
-    /* margin: 0 0 0.75rem; */
-    /* color: #FFFDF7; */
     background-color: #ddbdae;
-    /* Ganti dengan warna latar belakang yang Anda inginkan */
     border-radius: 10px;
-    /* Sesuaikan nilai radius sesuai keinginan Anda */
     padding: 10px;
-    /* Opsional: Tambahkan padding untuk memberi ruang di sekitar teks */
-    /* max-width: 300px; */
-    /* margin: 0 auto 0.75rem auto; */
     margin-top: 20px;
     animation: slideUp 5s ease forwards;
     animation-delay: 0.5s;
@@ -133,21 +116,18 @@
     font-size: 13px;
     margin: 0 0 0.75rem;
     color: #faf5f2;
-    /* margin-top: 10px */
     margin-bottom: 40px;
-    animation: fadeIn 5s ease;
+    animation: slideUp 5s ease forwards;
     animation-delay: 0.5s;
 }
 
 @keyframes fadeIn {
     from {
         opacity: 0;
-        /* Mulai dari opacity 0 */
     }
 
     to {
         opacity: 1;
-        /* Akhiri pada opacity 1 */
     }
 }
 
@@ -155,13 +135,11 @@
     from {
         opacity: 0;
         transform: translateY(-50px);
-        /* Mulai dari luar layar atas */
     }
 
     to {
         opacity: 1;
         transform: translateY(0);
-        /* Akhiri di posisi normal */
     }
 }
 

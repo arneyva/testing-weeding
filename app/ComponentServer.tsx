@@ -1,5 +1,5 @@
 import { PrismaClient } from "@prisma/client";
-import ClientComponent from "./ClientComponent";
+import ClientComponent from "./ComponentClient";
 
 const prisma = new PrismaClient();
 export const dynamic = "force-dynamic";
