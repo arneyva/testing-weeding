@@ -186,6 +186,8 @@
 }
 
 .kirimke {
+    font-family: Paprika, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+        'Liberation Sans', sans-serif;
     font-size: 0.9rem;
     font-weight: bold;
     color: #FFFDF7;

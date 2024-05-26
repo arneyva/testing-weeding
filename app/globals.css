@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Paprika&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Paprika&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Paprika&family=Parisienne&display=swap');
 @import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -12,4 +12,4 @@ body {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-}
+} */
