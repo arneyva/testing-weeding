@@ -201,7 +201,7 @@ const ClientComponent = ({ products, brands }: { products: Product[], brands: Br
                             <div className={styles["card-title"]} style={{ fontSize: "0.7rem" }}>
                                 Dusun Karanggawang RT. 006 RW. 009, Jumoyo, Salam, Magelang
                             </div>
-                            <a href="https://maps.app.goo.gl/qDzcUJRBAWXd3NsV8" target="_blank">
+                            <a href="https://maps.app.goo.gl/qDzcUJRBAWXd3NsV8" target="_blank" style={{ textDecoration: 'none' }}>
                                 <div className={styles.calonpengantin}>
                                     Petunjuk ke Lokasi
                                 </div>
